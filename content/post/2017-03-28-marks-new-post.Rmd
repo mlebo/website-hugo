@@ -1,0 +1,42 @@
+---
+title: Quantile Regression
+author: Bob Smith
+date: '2017-03-28'
+slug: marks-new-post
+categories: []
+summary: "this is the summary part"
+image: "mountain.jpg"
+weight: 3
+tags: []
+---
+
+
+#This is the title
+
+And this is the part that people will see when they click into your post
+
+Let's import some data
+```{r echo = FALSE, results = "hide"}
+suppressMessages(library(knitr))
+
+```
+
+```{r kable, echo = FALSE}
+data = mtcars
+kable(head(data))
+
+```
+
+```{r, echo = FALSE}
+library(ggplot2)
+ggplot(mtcars, aes(x = hp, y = mpg)) + geom_point() +
+  stat_smooth()
+
+```
+
+```{python}
+for i in range(1, 10):
+  if i > 5:
+    break
+```
+

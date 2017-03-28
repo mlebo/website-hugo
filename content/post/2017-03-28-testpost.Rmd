@@ -1,0 +1,10 @@
+---
+title: testpost
+author: Mark LeBoeuf
+date: '2017-03-28'
+slug: testpost
+categories: []
+tags: []
+---
+
+this is my test post
